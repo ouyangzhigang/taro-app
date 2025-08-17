@@ -1,6 +1,6 @@
 {
   "name": "im-client-chat-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "im通信机制聊天会话客服窗",
   "templateInfo": {
