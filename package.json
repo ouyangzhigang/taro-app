@@ -1,7 +1,7 @@
 {
-  "name": "im-client-chat",
-  "version": "1.0.0",
-  "private": true,
+  "name": "im-client-chat-demo",
+  "version": "1.0.1",
+  "private": false,
   "description": "im通信机制聊天会话客服窗",
   "templateInfo": {
     "name": "vue3-NutUI4",
@@ -44,7 +44,7 @@
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
     "build:component": "npx unbuild",
-    "release:component": "npx changelog --release && npm publish --access public && git push --follow-tags"
+    "release:component": "npx unbuild && npm publish --access public && git push --follow-tags"
   },
   "browserslist": [
     "last 3 versions",

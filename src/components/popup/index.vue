@@ -31,7 +31,7 @@ const inputMsg = (e) => {
 </script>
 
 
-<style lang="scss" scoped>
+<style>
 .popup-component {
   position: fixed;
   bottom: 0;

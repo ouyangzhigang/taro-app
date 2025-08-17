@@ -30,19 +30,6 @@ const inputMsg = (e) => {
 }
 </script>
 
-<style scoped>
-.popup-component {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 75%;
-  border-radius: 15rpx 15px 0 0;
-  background-color: blue;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  z-index: 9;
-}
+<style>
+.popup-component{background-color:blue;border-radius:15rpx 15px 0 0;bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:75%;left:0;position:fixed;width:100%;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;z-index:9}
 </style>
